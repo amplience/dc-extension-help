@@ -50,7 +50,25 @@ This extension requires no additional permissions.
 ```
 
 ## Use
-In any content item, add a field with type `null` that uses this UI extension. You can send a `title` and `message` to it as params, which will appear in the help block. The `message` will be parsed as markdown. HTML is allowed in the markdown, though there are some restrictions that will prevent you running scripts etc (provided via `js-xss`).
+In any content item, add a field with type `null` that uses this UI extension. 
+
+You can send a `title` and `message` to it as params, which will appear in the help block. The `message` will be parsed as markdown. HTML is allowed in the markdown, though there are some restrictions that will prevent you running scripts etc (provided via `js-xss`).
+
+Example:
+
+```json
+"help": {
+  "type": "null",
+  "ui:extension": {
+    "name": "help",
+    "params": {
+      "title": "Put the title to be shown to the user",
+      "message": "Place any markdown content in here....."	
+    }
+  }
+}
+
+```
 
 ## Building Locally
 Local builds can be tested directly (using the default test data) or by setting up a JSON schema that links to your localhost instance.
