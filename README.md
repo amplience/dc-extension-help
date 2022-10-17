@@ -9,7 +9,7 @@ Extension that adds a help block to a content item. This creates a placeholder f
 
 ### Register Extension
 
-This extension needs to be [registered](https://amplience.com/docs/development/registeringextensions.html) against a Hub with in the Dynamic Content application (Developer -> Extensions), for it to load within that Hub.
+This extension needs to be [registered](https://amplience.com/developers/docs/integrations/extensions/register-use/) against a Hub with in the Dynamic Content application (Developer -> Extensions), for it to load within that Hub.
 
 #### Setup
 
@@ -18,19 +18,17 @@ This extension needs to be [registered](https://amplience.com/docs/development/r
 * Category: Content Field
 * Label: Help _(this will appear as the tab title in the Dashboard)_
 * Name: help _(needs to be unique with the Hub)_
-* URL: [https://help.extensions.content.amplience.net](https://help.extensions.content.amplience.net)
+* URL: [https://help.extensions.content.amplience.net](https://help.extensions.content.amplience.net) or your hosted HTTPS location for the extension
 * Description: Help _(can be left blank, if you wish)_
 
-To use the application the following permissions must be enabled:
-
-Note:
+> Note:
 You can use our deployed version of this extension (builds from the "production" branch) -
 
 [https://help.extensions.content.amplience.net](https://help.extensions.content.amplience.net)
 
 _As this is an open source project you're welcome to host your own "fork" of this project. You can use any standard static hosting service (Netlify, Amplify, Vercel, etc.) if you wish._
 
-##### Permissions
+#### Permissions
 
 This extension requires no additional permissions.
 
