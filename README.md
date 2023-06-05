@@ -5,6 +5,8 @@
 # Dynamic Content Help Block Extension
 Extension that adds a help block to a content item. This creates a placeholder field that simply shows helpful information of your choosing in the content item editor.
 
+This project requires Node 16.x to build.
+
 ## How to install
 
 ### Register Extension
