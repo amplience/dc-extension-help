@@ -75,7 +75,7 @@
     "start": "npm run server:dev",
     "test": "karma start"
   },
-  "version": "0.0.1",
+  "version": "0.2.0",
   "dependencies": {
     "@types/showdown": "^1.9.3",
     "autoprefixer": "^9.7.3",
