@@ -1,5 +1,3 @@
-[![Amplience Dynamic Content](media/header.png)](https://amplience.com/dynamic-content)
-
 ![Dynamic Content Help Block Extension](media/screenshot.png)
 
 # Dynamic Content Help Block Extension
